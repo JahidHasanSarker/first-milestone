@@ -29,17 +29,17 @@ a{
     color: sandybrown;
     font-size: 70px;
 }
-/* Banner CSS Start */
-.banner-part{
+
+.container-part{
     display: flex;
     margin-top: 100px;
 }
+/* Banner CSS Start */
 
 .banner-width{
     width: 40%;
     margin-left: 8%;
-    margin-right: 2%;
-    
+    margin-right: 2%;   
 }
 .banner-width img{
     width: 85%;
@@ -48,3 +48,35 @@ a{
     margin-bottom: 80px;
 }
 /* Banner CSS End */
+
+/* About CSS Start */
+#about-bg{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-width{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 5%;  
+    padding: 20px; 
+}
+.about-width img{
+    width: 70%;
+    margin-left: 100px;
+    
+}
+.about-width h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: #707070;
+    margin-top: 130px;
+}
+.about-width p{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+/* About CSS End */
