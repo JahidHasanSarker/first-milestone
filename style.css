@@ -9,6 +9,10 @@ h1{
     line-height: 85px;
     margin-top: 100px;
 }
+h4{
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
 p{
     font-size: 18px;
     font-weight: 500;
@@ -35,6 +39,7 @@ a{
     display: flex;
     margin-top: 100px;
 }
+
 /* Banner CSS Start */
 
 .banner-width{
@@ -185,12 +190,13 @@ a{
 }
 /* Count CSS End */
 
-/* Contact Part Start */
+/* Contact CSS Start */
 .contact-part{
-    margin: 100px 0;
+    margin-top: 100px;
     background-image: url(images/7.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0%!important ;
 }
 .contact-part h3{
     font-size: 45px;
@@ -227,4 +233,28 @@ textarea{
     border-radius: 15px;
     cursor: pointer;
 }
-/* Contact Part End */
+
+/* Contact CSS End */
+
+/* Footer CSS Start */
+
+.footer-part{
+    background-color: black;
+    height: 20vh;
+    
+}
+.footer-part h4{
+    font-size: 30px;
+    color: gray;
+    padding-top: 30px;
+}
+.footer-part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #cfbebe;
+}
+.food-color{
+    color: sandybrown;
+}
+
+/* Footer CSS End */
