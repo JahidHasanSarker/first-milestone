@@ -110,7 +110,7 @@ a{
     .recipe-box{
         width: 32%;
         padding: 15px;   
-        box-shadow: 15px 15px 35px gray;
+        box-shadow: 15px 15px 35px 10px rgb(228, 216, 216);
         margin: 20px;
         border-radius: 40px;
     }
@@ -142,6 +142,7 @@ a{
     padding-top: 50px;
     text-align: center;
     font-size: 50px;
+    font-weight: 900;
 }
 .member-part p{
     text-align: center;
@@ -159,3 +160,27 @@ a{
     margin-bottom: 100px;
 }
 /* Membership CSS End */
+
+/* Count CSS Start */
+.count-part{
+    margin: 150px 0;
+}
+.count-container{
+    width: 70%;
+    display: flex;
+    text-align: center;
+    box-shadow: 10px 10px 35px 10px rgb(221, 214, 214);
+    border-radius: 20px;
+    margin:0 220px;
+    padding: 70px;
+    
+}
+.count-width{
+    width: 60%;
+}
+.count-width h4{ 
+    font-size: 48px;
+    line-height: 0px;
+    font-weight: 900;
+}
+/* Count CSS End */
