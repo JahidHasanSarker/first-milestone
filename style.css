@@ -87,6 +87,7 @@ a{
 
 .recipe-part{
     margin: 100px 0;
+    
 }
     .center-point{
         text-align: center;
@@ -129,3 +130,32 @@ a{
     }
    
 /* Recipe CSS End */
+
+/* Membership CSS Start */
+.member-part{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 100px 0;
+}
+.member-part h3{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.member-part p{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sponsership{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.sponsership img{
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/* Membership CSS End */
