@@ -213,6 +213,18 @@ textarea{
     height: 100px;
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+    
+}
+.form-button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 15px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 /* Contact Part End */
