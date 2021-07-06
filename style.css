@@ -184,3 +184,35 @@ a{
     font-weight: 900;
 }
 /* Count CSS End */
+
+/* Contact Part Start */
+.contact-part{
+    margin: 100px 0;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-part h3{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 80px;
+}
+.contact-style{
+    width: 400px;
+    margin: 0 auto;
+}
+input,text{
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: white;
+}
+textarea{
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+/* Contact Part End */
